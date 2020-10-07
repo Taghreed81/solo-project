@@ -1,14 +1,12 @@
 
-//creat popup for the image
+// //creat popup for the image
 // let ourGallery = document.querySelectorAll(".box");
 //     ourGallery.forEach(img => {
 // 	$('.box').click( function(){
 // 		$('img').show();
 // 	});
 // }
-// function img(){
-// 	$('img').show;
-// }
+
 
 
 // ourGallery.forEach(img => {
@@ -44,12 +42,9 @@
 // 		e.preventDefault();
 // 	})
 // })
-// // behavior : "smooth";
 
-
-
-$('.active').click(function(){
-	$(".about us").show();
+$('.about').click(function(){
+	$(".next-page").show();
 	$('.logo').hide();
 })
 
@@ -61,3 +56,11 @@ $('.active').click(function(){
 //       $("#content section:visible").fadeOut();
 //       $(id).fadeIn();
 // });
+
+
+$(document).ready(function(){
+	$(".about").click(function(){
+		$(".about-us").show();
+	});
+
+})

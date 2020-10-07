@@ -1,0 +1,20 @@
+.gallery {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background:beige;
+
+}
+
+.gallery h2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0 0 50px;
+	text-align: center;	
+}
+.gallery .box {
+	text-align: center;	
+}
+.gallery .box img {
+	width: 400px;
+    height: 400px;	
+}

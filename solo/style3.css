@@ -1,0 +1,33 @@
+
+body{
+	font-family: "Open sans", sans- serif;
+	/*	background-color: rgba(0,0,0,.5);*/
+		background-size: cover;
+		background-position: center;
+		background:beige;
+		background-image: url("sitting room/interior_4223.jpg");
+			
+}
+
+.header-area {
+	position: relative;
+	z-index: 2;
+	color:black;
+	display: flex;
+}
+
+.logo {
+	width: 300px;
+	padding: 15;
+	font-size:30px;
+}
+.introduction-text{
+	position: absolute;
+	left: 50%;
+	top:20%;
+	transform: translate(-50%, -50%);
+	color:blue;
+	z-index:2;
+	font-size: 20px;
+	text-align: center;
+}

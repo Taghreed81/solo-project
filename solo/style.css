@@ -1,25 +1,49 @@
 body {
-	background-image: url(decore2.jpg);
+	background-image: url(decore.jpg);
+
 
 }
 
 .design {
-	font-size:large;
+height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+	/*font-size:x-large;
 	font-family: "Open sans", sans- serif;
+	/*color:black;*/
+	/*position:relative;*/
+/*	left: -20px;*/*/
+
 }
 
 
-*{
+/**{
 
 	margin: 0;
 	padding: 0;
 }
+*/
+
+
+
 
 form{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
+	top:0;
+    left: 50%;
+    top: 50%;
+    margin-left: -10%;
+    position: absolute;
+    margin-top: -25%;
+
+
 }
 
 .main{
@@ -31,7 +55,7 @@ form{
 	width: 250px
 	 border: 1px solid;
   padding: 10px;
-  box-shadow: -1px 1px 3px grey,
+  box-shadow: -1px 1px 3px black,
              1px -1px 3px white;
 	font-family: arial;  
 	border-radius: 20px; 

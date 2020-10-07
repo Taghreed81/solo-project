@@ -1,0 +1,89 @@
+body {
+	background-image: url(decore2.jpg);
+
+}
+
+.design {
+	font-size:large;
+	font-family: "Open sans", sans- serif;
+}
+
+
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column wrap;
+	height: 300px
+	width: 250px
+	 border: 1px solid;
+  padding: 10px;
+  box-shadow: -1px 1px 3px grey,
+             1px -1px 3px white;
+	font-family: arial;  
+	border-radius: 20px; 
+	position: left; 
+
+}
+
+.box{
+	border: none;
+	outline: none;
+	padding: 10px;
+	margin: 15px;
+  padding: 10px;
+  font-weight: bold;
+  transition:.3s ease-out;
+  box-shadow: 5px 10px #888888;
+	font-size: 15px;
+	border-radius:40px;
+	border: 2px solid lightblue;
+}
+
+input:placeholder-shown{
+	font-size: 13px;
+	border:none;
+}
+ .button{
+ 	height: 30px;
+ 	width: 190px;
+ 	border:none;
+ 	outline: none;
+ 	 box-shadow: -1px 1px 3px grey,
+             1px -1px 3px white;
+      border-radius:50px;       
+     font-size: 15px;
+     font-weight: bolder; 
+     margin-top: 20px;
+     cursor:pointer;       
+
+ }
+ .button:hover{
+ 	background: pink;
+ 	color:white;
+
+ }
+
+
+
+
+
+
+
+
+
+
+

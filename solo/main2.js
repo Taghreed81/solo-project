@@ -1,11 +1,14 @@
 
 //creat popup for the image
-let ourGallery = document.querySelectorAll(".box");
-    ourGallery.forEach(img => {
-	$('.box').click( function(){
-		$('img').show();
-	});
-}
+// let ourGallery = document.querySelectorAll(".box");
+//     ourGallery.forEach(img => {
+// 	$('.box').click( function(){
+// 		$('img').show();
+// 	});
+// }
+// function img(){
+// 	$('img').show;
+// }
 
 
 // ourGallery.forEach(img => {
@@ -35,4 +38,26 @@ let ourGallery = document.querySelectorAll(".box");
 
 // })
 
+// var allLinks = document.querySelectorAll(".links");
+// allLinks.forEach(link => {
+// 	link.addEventListener("click", (e) =>{
+// 		e.preventDefault();
+// 	})
+// })
+// // behavior : "smooth";
 
+
+
+$('.active').click(function(){
+	$(".about us").show();
+	$('.logo').hide();
+})
+
+
+
+// $("a").bind("click", function(e) {
+//     e.preventDefault();
+//     var id = $(this).data("section");
+//       $("#content section:visible").fadeOut();
+//       $(id).fadeIn();
+// });

@@ -22,7 +22,7 @@ body{
 }
 	}
 
-.landing-page.overlay {
+/*.landing-page.overlay {
 
 	position: absolute;
 	width: 100%;
@@ -30,7 +30,7 @@ body{
 	left:0;
 	top:0;
 	z-index: 1;
-}
+}*/
 .header-area {
 	position: relative;
 	z-index: 2;

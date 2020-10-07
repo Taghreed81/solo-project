@@ -2,19 +2,22 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
+	<!-- landing page -->
 	<div class="landing-page">
 		<div class="overlay"></div>
 
 		<div class="container">
-		<div class="header-area">
+		<div class="header-area" action=".about-us">
 		<ul class = "links">
-			<li><a href="#" class="active">About</a></li>
-			<li><a href="#">Service</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">Contact</a></li>
+			<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href='# data-section=".About Us"' class="active">About</a></li>
+			<li><a href='# data-section = ".Our Service"'>Service</a></li>
+			<li><a href='# data-section = ".Our Gallery"'>Gallery</a></li>
+			<li><a href='# data-section =".contact"'>Contact</a></li>
 		</ul>
 	</div>
 	</div>
@@ -25,8 +28,8 @@
 		</div>	
 	</div>
 
-	<div class= "container">
-	<div class="about-us">
+	<div class= "container" >
+	<div class="about-us" style= "display: none">
 		<div class=" info-box">
 			<h2>About Us</h2>
 			<p>We are one of the leading companies in interior design. Our interior design includes bedrooms, kitchen, bathrooms, sitting rooms, etc.</p>
@@ -45,6 +48,8 @@
 		<div class="image-box">
 			<img src="1image001.jpg">
 		</div>
+
+		
 	</div>
 	</div>
 

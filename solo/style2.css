@@ -114,4 +114,65 @@ li a:hover,li a:hover.active{
 
 p {
 	line-height: 1.8;
+	margin: 0;
+
+}
+
+.Service {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+}
+
+.image-box {
+	flex: 1;
+}
+
+#serve {
+	line-height: 1.8;
+	margin: 0;
+}
+
+.gallery {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.gallery h2 {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0 0 50px;
+	text-align: center;	
+}
+.gallery .box {
+	text-align: center;	
+}
+.gallery .box img {
+	width: 150px;
+    height: 200px;	
+}
+
+.popup-overlay {
+	position: fixed;
+	background-color: rgba(0,0,0,.7);
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+.popup-box {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 20px;
+	z-index: 1001;
+}
+.popup-box img {
+	max-width: 100%;
+
 }

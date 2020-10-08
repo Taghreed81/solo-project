@@ -34,14 +34,23 @@ $('.about').click(function(){
 })
 
 
-// $(document).ready(function(){
-// 	$(".about").click(function(){
-// 		$(".about-us").show();
-// 	});
-
-// })
-
 var images = ['bedroom/bed.jpg', 'bedroom/bed2.jpg', 'bedroom/bed3.jpg', 'bedroom/bed4.jbg', 'bedroom/bed5.jpg', 'bedroom/bed6.jpg'];
+
+// var images = new Array();
+// images[0]='bedroom/bed.jpg';
+// images[1]= 'bedroom/bed1.jpg';
+// images[2]= 'bedroom/bed2.jpg';
+// images[3]= 'bedroom/bed3.jpg';
+// images[4]= 'bedroom/bed4.jpg';
+// images[5]= 'bedroom/bed5.jpg';
+// images[6]= 'bedroom/bed6.jpg';
+
+// function display(){
+// 	for( var x = 0; x < images.length; x++){
+// 		document.getElementById('images').appendChild(img)
+
+// 	}
+// }
 
 $('#box').click(function(){
 	//go inside the array and check for the image.
@@ -55,9 +64,11 @@ $('#box').click(function(){
 })
 
 let btnBack = document.querySelector('#btn');
+
 let goBack = function(){
-	window.back('second index.html');
+	window.history.back();
 };
 btnBack.addEventListener('click', function(){
-	goBack()
+	goBack();
+	document.location.href ="second index.html"
 })

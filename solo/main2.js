@@ -1,4 +1,4 @@
-
+var ourGallery = document.querySelectorAll('#gallery');
 ourGallery.forEach(img => {
 	img.addEventListener('click', (e) => {
 		// i need to creat overlay element  so that popup will be on it
@@ -26,31 +26,38 @@ ourGallery.forEach(img => {
 
 })
 
-// var allLinks = document.querySelectorAll(".links");
-// allLinks.forEach(link => {
-// 	link.addEventListener("click", (e) =>{
-// 		e.preventDefault();
-// 	})
-// })
 
 $('.about').click(function(){
+	//when i click on About show the next page and hide this one.
 	$(".next-page").show();
 	$('.logo').hide();
 })
 
 
+// $(document).ready(function(){
+// 	$(".about").click(function(){
+// 		$(".about-us").show();
+// 	});
 
-// $("a").bind("click", function(e) {
-//     e.preventDefault();
-//     var id = $(this).data("section");
-//       $("#content section:visible").fadeOut();
-//       $(id).fadeIn();
-// });
+// })
 
+var images = ['bedroom/bed.jpg', 'bedroom/bed2.jpg', 'bedroom/bed3.jpg', 'bedroom/bed4.jbg', 'bedroom/bed5.jpg', 'bedroom/bed6.jpg'];
 
-$(document).ready(function(){
-	$(".about").click(function(){
-		$(".about-us").show();
-	});
+$('#box').click(function(){
+	//go inside the array and check for the image.
+	for(var x = 0; x < images.length; x++){
+		//check if the image is excite.
+		if(images[x] !== null)
+			//if the image is there show it in another window.
+			window.open(images[x]);
+	}
+	
+})
 
+let btnBack = document.querySelector('#btn');
+let goBack = function(){
+	window.back('second index.html');
+};
+btnBack.addEventListener('click', function(){
+	goBack()
 })

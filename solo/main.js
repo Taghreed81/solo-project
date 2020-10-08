@@ -1,33 +1,31 @@
 var name = document.getElementById("name");
 var email = document.getElementById("email");
 var password= document.getElementById("pass");
-// var form= document.getElementById("form");
-// var email.addEventListener("textInput", email_Verify);
-// var password.addEventListener("textInput", email_Verify);
-
-// form.addEventListener("login", ()=>{
-// let messages = [];
-// if(name.value === "" || name.value == null) {
-// 	messages.push('Name is required')
-// }
-
-// if(password.value.length <= 6){
-// 	messages.push('Password must be longer than 6 characters')
-// }
 
 
-// })
 let persons= [];
 
 function add (){
+
+	// let person = {
+	// 	name = name.value,
+	// 	email = email.value,
+	// 	password = password.value
+	// }
+	// check if the input name is empty, send this alert.
 	if(name.value === '' ){
 		alert('Name is required');
-	}
-	if(email.value.length < 9){
+		// persons.push(name);
+	 }
+	// check if the input email is less than 9 charecters, send this alert.
+    if(email.value.length < 9){
 		alert('Please fill up your Email')
-	}
-	if(password.value.length < 7){
+		// persons.push(email);
+	 }
+	//  check if the input password is less than 7 charecters, send this alert.
+    if(password.value.length < 7){
 		alert('Please fill up your Password')
-	}
-
+		// persons.push(password);
+	 }
+	
 }
